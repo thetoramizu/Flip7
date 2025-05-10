@@ -4,10 +4,12 @@ export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <base href="/Flip7/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
-<body><!--nghm-->
-  <app-root ng-version="19.2.10" ngh="0" ng-server-context="ssg"><div> Quel joueur es-tu ?
-</div></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-LGQYSZDJ.js" type="module"></script>
+<link rel="stylesheet" href="styles-USLPTMVG.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-USLPTMVG.css"></noscript><style ng-app-id="ng">.cardClass[_ngcontent-ng-c3216040912]{width:150px;height:200px}</style></head>
+<body><!--nghm--><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
+</script><script>window.__jsaction_bootstrap(document.body,"ng",["click"],[]);</script>
+  <app-root ng-version="19.2.10" ngh="1" ng-server-context="ssg"><div> Quel joueur es-tu ?
+</div><app-flip7 _nghost-ng-c3216040912 ngh="0"><main _ngcontent-ng-c3216040912><button _ngcontent-ng-c3216040912 jsaction="click:;"> Mélanger</button><div _ngcontent-ng-c3216040912 style="display: flex; gap: 10px;"><span _ngcontent-ng-c3216040912 class="cardClass" style="display: flex; justify-content: center; align-items: center; border: 1px solid black;"> 79
+</span><button _ngcontent-ng-c3216040912 jsaction="click:;"> Tirer une carte </button><span _ngcontent-ng-c3216040912><!----></span></div><div _ngcontent-ng-c3216040912 style="width: 50%;"><div _ngcontent-ng-c3216040912 style="background-color: cadetblue;"><h1 _ngcontent-ng-c3216040912>Thomas 0</h1><div _ngcontent-ng-c3216040912 style="display: flex; gap: 2px;"><!----></div></div><div _ngcontent-ng-c3216040912 style="background-color: white;"><h1 _ngcontent-ng-c3216040912>Sébastien 0</h1><div _ngcontent-ng-c3216040912 style="display: flex; gap: 2px;"><!----></div></div><div _ngcontent-ng-c3216040912 style="background-color: white;"><h1 _ngcontent-ng-c3216040912>Raphaël 0</h1><div _ngcontent-ng-c3216040912 style="display: flex; gap: 2px;"><!----></div></div><!----></div></main></app-flip7></app-root>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-K52XT4KD.js" type="module"></script>
 
-<script id="ng-state" type="application/json">{"__nghData__":[{}]}</script></body></html>`;
+<script id="ng-state" type="application/json">{"__nghData__":[{"t":{"9":"t0","12":"t1"},"c":{"9":[],"12":[{"i":"t1","r":1,"t":{"5":"t2"},"c":{"5":[]},"x":3}]}},{}]}</script></body></html>`;
