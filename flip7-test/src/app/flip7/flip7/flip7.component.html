@@ -1,0 +1,50 @@
+<main>
+
+
+<button (click)="ngOnInit()" > Mélanger</button>
+
+
+<!-- @for (card of deckOfCards; track card) {
+<div class="cardClass" [style.background-color]="card.couleur">
+  <p class="flex justify-center ">{{card.numero}}</p>
+</div>
+} -->
+
+
+
+
+<div style="display: flex; gap: 10px">
+
+<span class="cardClass" style="display: flex; justify-content: center; align-items: center; border: 1px solid black;">
+  {{deckOfCards.length}}
+</span>
+
+<button [disabled]="deckOfCards.length === 0" (click)="drawCard()"> Tirer une carte </button>
+
+<span>
+  @if (lastCard) {
+      <div class="cardClass" style="display: flex; justify-content: center; align-items: center;" [style.background-color]="lastCard.couleur">
+      <p style="">{{lastCard.numero}}</p>
+</div>
+  }
+
+</span>
+</div>
+
+
+<div style="width: 50%; ">
+  @for (player of listPlayers; track player) {
+    <div  [style.background-color]="player === activePlayer ? 'cadetblue' : player.stop ? 'grey': 'white'">
+      <h1>{{player.nom}}        {{score(player)}}</h1>
+      <div style="display: flex; gap: 2px;">
+
+    @for (carte of player.cartes; track $index) {
+      <div class="cardClass" style="display: flex; justify-content: center; align-items: center;" [style.background-color]="carte.couleur">
+      <p style="">{{carte.numero}}</p></div>
+    }
+    </div>
+</div>
+  }
+</div>
+
+</main>
